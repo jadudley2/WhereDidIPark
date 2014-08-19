@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/map_infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d3d3d3"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:text="@string/default_beacon_name" />
+    
+    <CheckBox
+        android:id="@+id/zoomCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rezoom"
+        android:layout_marginLeft="7dp" />
+
+    <fragment
+        android:id="@+id/beacon_mapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <Button
+        android:id="@+id/directionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getDirections"
+        android:text="@string/directions" />
+
+</LinearLayout>

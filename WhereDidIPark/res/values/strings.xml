@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WhereDidIPark</string>
+    <string name="set_beacon">Set Car Location</string>
+    <string name="find_beacon">Find Your Car</string>
+    <string name="beacon_set_warning">Location must be set first</string>
+    <string name="default_beacon_name">Dude, where\'s my car?</string>
+    <string name="rezoom">Re-zoom map periodically</string>
+    <string name="directions">Get Directions</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
